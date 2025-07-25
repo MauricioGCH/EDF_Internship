@@ -3,7 +3,7 @@
 This repository contains 6 main folders, which I will explain below:
 
 ## 1. BGS CODE
-This folder contains the code based on Azenor's work, implementing the Kalman filter along with the BGS method. Currently, the BGS method can be modified (it is crucial to correctly install the PyBGS library). The following `.py` files are found within this folder:
+This folder contains the code based on Azenor's work (later modified by me), implementing the Kalman filter along with the BGS method. Currently, the BGS method can be modified (it is crucial to correctly install the PyBGS library). The following `.py` files are found within this folder:
 - **Extract_past_frames.py**: Simply extracts the previous frames from a given track.
 - **BGSFrames_Extraction.py**: Created to extract raw SuBSENSE results for the addition of the UNET method with the extra BGS channel.
 - **FrameAnalyzer_v1.py**: A code designed to navigate through videos. It allows advancing and rewinding frame by frame, jumping to a specific frame, and selecting a specific segment to save with a specific name according to the available options. This was essential for qualitative analysis.
