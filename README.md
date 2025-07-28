@@ -41,7 +41,7 @@ The clean version of the SAM code for generating our segmentation masks for the 
 - **Mask_visualization.py**: A function used at one point to visualize results.
 - **SELUNE.csv**: A track annotated to experiment with adding data from the Selune.
 
-The database will first be stored on the desktop computer in my EDF office, on the SELUNE ARIS hard drive, and I will also send you a link to download it. The database folder contains:
+The database folder contains (it isn't public):
 - **Organized_Labels**: The Excel file with manually organized annotations.
 - **SecondVersion_Annotations_Filled.csv**: The final version of bounding box and medoid prompts from BGS_CODE to send to SAM.
 - **Small_ARIS_Mauzac_UnetReady_Final_BGS**: The original and final version of the database, with other adapted versions based on the model to be trained or evaluated. There is likely a more optimal way to handle these different versions without copying the entire database, which would be especially important as the database grows, but for now, it’s organized this way.
