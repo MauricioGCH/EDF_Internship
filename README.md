@@ -3,7 +3,7 @@
 This repository contains 6 main folders, which I will explain below:
 
 ## 1. BGS CODE
-This folder contains the code based on Azenor's work (later modified by me), implementing the Kalman filter along with the BGS method. Currently, the BGS method can be modified (it is crucial to correctly install the PyBGS library). The following `.py` files are found within this folder:
+This folder contains the code implementing the Kalman filter along with the BGS method. Currently, the BGS method can be modified (it is crucial to correctly install the PyBGS library). The following `.py` files are found within this folder:
 - **Extract_past_frames.py**: Simply extracts the previous frames from a given track.
 - **BGSFrames_Extraction.py**: Created to extract raw SuBSENSE results for the addition of the UNET method with the extra BGS channel.
 - **FrameAnalyzer_v1.py**: A code designed to navigate through videos. It allows advancing and rewinding frame by frame, jumping to a specific frame, and selecting a specific segment to save with a specific name according to the available options. This was essential for qualitative analysis.
@@ -42,7 +42,7 @@ The clean version of the SAM code for generating our segmentation masks for the 
 - **SELUNE.csv**: A track annotated to experiment with adding data from the Selune.
 
 The database will first be stored on the desktop computer in my EDF office, on the SELUNE ARIS hard drive, and I will also send you a link to download it. The database folder contains:
-- **Organized_Labels**: The Excel file with Azenor's manually organized annotations.
+- **Organized_Labels**: The Excel file with manually organized annotations.
 - **SecondVersion_Annotations_Filled.csv**: The final version of bounding box and medoid prompts from BGS_CODE to send to SAM.
 - **Small_ARIS_Mauzac_UnetReady_Final_BGS**: The original and final version of the database, with other adapted versions based on the model to be trained or evaluated. There is likely a more optimal way to handle these different versions without copying the entire database, which would be especially important as the database grows, but for now, it’s organized this way.
 - The folders named after resolutions (e.g., `350x350`, `500x500`) are used for both the normal UNET and the UNET with an additional BGS channel.
