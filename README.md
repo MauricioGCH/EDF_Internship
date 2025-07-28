@@ -7,7 +7,7 @@ This folder contains the code implementing the Kalman filter along with the BGS 
 - **Extract_past_frames.py**: Simply extracts the previous frames from a given track.
 - **BGSFrames_Extraction.py**: Created to extract raw SuBSENSE results for the addition of the UNET method with the extra BGS channel.
 - **FrameAnalyzer_v1.py**: A code designed to navigate through videos. It allows advancing and rewinding frame by frame, jumping to a specific frame, and selecting a specific segment to save with a specific name according to the available options. This was essential for qualitative analysis.
-- **Labels_Organizer.py**: Initially created to organize the manual annotations from Azenor's work (it created the `Organized_Labels` file, which was widely used to easily navigate the videos).
+- **Labels_Organizer.py**: Initially created to organize the manual annotations (it created the `Organized_Labels` file, which was widely used to easily navigate the videos).
 - **Masks_Overlay.py**: Used for visualizing results.
 - **Properties_datasets.py**: Used for video inventory.
 - **Main.py**: The main file for generating prompts in a format readable by SAM.
